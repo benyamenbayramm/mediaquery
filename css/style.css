@@ -118,7 +118,7 @@ body{
     }
     .home .home-info-title{
         color: rgb(253, 250, 245);
-        -webkit-text-stroke: black 1px;
+        -webkit-text-stroke: black .3px;
     }
 
 
@@ -227,6 +227,7 @@ overflow: hidden;
 
     .work .work-part{
         width: 100%;
+        padding: 20px 15px;
     }
     .part2{
         margin:5% 0;
@@ -594,9 +595,16 @@ padding: 60px 0;
 }
 @media(max-width:576px){
     .input-from input{
-        width: 80%;
+        width: 100%;
         float: none;
+        padding: 20px;
     }
+    .input-from input[type="text"]{
+        margin-bottom: 10px;
+    }
+    
+
+
 
 }
 /*footer*/
